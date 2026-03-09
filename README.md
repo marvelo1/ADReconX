@@ -137,8 +137,3 @@ ADReconX[example.local] > run report
 
 ## 🗺️ Roadmap / Pending Features
 
-1.  **Fully Developed Bloodhound Graph API**: Build a custom NetworkX/Py2Neo interface to programmatically calculate Breadth-First-Search paths natively from the offline ZIP file and route them to exploit handlers.
-2.  **BloodHound API Integration**: Allow users to configure BloodHound CE / Enterprise API credentials natively to automatically push collection data straight into their live instance via REST API instead of dropping zip files.
-3.  **BloodHound Live Attack Path Queries**: Connect to BloodHound's live Neo4j database using Cypher queries to mathematically calculate and log the exact shortest path from the compromised user to Domain Admin.
-4.  **Automated RBCD / Constrained Delegation Exploitation**: Add a module that automatically consumes the LDAP `MachineAccountQuota` and Delegation data to spawn a rogue computer object and forge a Service Ticket (`impacket-getST`) gaining full Administrator access effortlessly.
-5.  **Advanced Persistence (Golden/Silver Tickets)**: Automate `ticketer.py` workflows to use the extracted `krbtgt` or computer hashes to generate 10-year validity Golden/Silver tickets automatically for immediate Pass-The-Ticket deployment.
