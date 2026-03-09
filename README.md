@@ -66,7 +66,7 @@ sudo apt-get install -y nmap smbclient python3-venv python3-pip python3-dev libs
 ### 2. Environment Setup
 ```bash
 # Clone the repository
-# git clone https://github.com/your-repo/ADReconX.git
+# git clone https://github.com/marvelo1/ADReconX.git
 cd ADReconX
 
 # Create and activate a Python virtual environment
